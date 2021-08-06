@@ -1,7 +1,7 @@
 # Adversarial-Variational-Autoencoder-Training-for-CFD-Simulations
 
 Experimental Repo for Using adversarial training to improve forecasts of data-driven surrogate models of CFD simulations with integration of DA of experimental data.
-The Adv. VAE is trained on the CO2_tracerfields of the pub simulation which serves as proxy for exposure to Covid19. The mode accuracy is compared to a simple PCA decomposition thereof and the space reconstructed by the Adv.VAE. Optionally, we construct a pre-processing step where images of the experimental data can be assimilated with the CFD simulation.
+The Adv. VAE is trained on the CO2_tracerfields of the pub simulation which serves as proxy for exposure to Covid19. The model accuracy is compared to a simple PCA decomposition thereof and the space reconstructed by the Adv.VAE. Optionally, we construct a pre-processing step where images of the experimental data can be assimilated with the CFD simulation.
 
 
 ## Requirements
