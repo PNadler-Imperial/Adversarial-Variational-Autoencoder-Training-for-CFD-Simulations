@@ -15,10 +15,12 @@ scikit-learn 0.23.2
 ## Pre Processing
 The folder Pre-Processing contains the scripts to assimilate experimental data with the CFD simulation. In a first step the CFD is saved as a sequence of images, in a second step the images are combined with the images of experimental data using a DA procedure.
 <img src="https://github.com/PNadler-Imperial/Adversarial-Variational-Autoencoder-Training-for-CFD-Simulations/blob/main/preprocessing/da_example.png" width="600" height="450">
+The image and video images are available [here](https://drive.google.com/drive/folders/1OuOmogGW1C1vilpJxz4-XemdEohSH6Kq?usp=sharing) and [here](https://drive.google.com/drive/folders/1bgbzkVpM_RbiXscbHrNfbW2ZO2_mDrgK?usp=sharing)
 
 ## Main Model
 The model is trainable without the pre-processing and requires execution of the scripts as outlined in the main model folder. If in the previous step the assimilated state was saved, there is an option of da_state to integrate this into the network architecture altough this is still experimental.
-The main fils for the CFD simulations can be found [here](https://imperiallondon-my.sharepoint.com/:f:/g/personal/pn18_ic_ac_uk/Es2ro2y21TREpxGD52c-yQMBDWfbZtkGBJRazHEZ7b6PEg?e=IMBW1g) (Imperial Access Only).
+The main files for the CFD simulations can be found [here](https://imperiallondon-my.sharepoint.com/:f:/g/personal/pn18_ic_ac_uk/Es2ro2y21TREpxGD52c-yQMBDWfbZtkGBJRazHEZ7b6PEg?e=IMBW1g) (Imperial Access Only).
+
 These are the CO2_tracer fields of the CFD simulation to be learned:
 ![alt text](https://github.com/PNadler-Imperial/Adversarial-Variational-Autoencoder-Training-for-CFD-Simulations/blob/main/model_main/ground_gif.gif?raw=true)
 
