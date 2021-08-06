@@ -18,8 +18,7 @@ The folder Pre-Processing contains the scripts to assimilate experimental data w
 
 ## Main Model
 The model is trainable without the pre-processing and requires execution of the scripts as outlined in the main model folder. If in the previous step the assimilated state was saved, there is an option of da_state to integrate this into the network architecture altough this is still experimental.
-The main fils for the CFD simulations can be found here (Imperial Access Only):
-<https://imperiallondon-my.sharepoint.com/:f:/g/personal/pn18_ic_ac_uk/Es2ro2y21TREpxGD52c-yQMBDWfbZtkGBJRazHEZ7b6PEg?e=IMBW1g>`_.
+The main fils for the CFD simulations can be found `here <https://imperiallondon-my.sharepoint.com/:f:/g/personal/pn18_ic_ac_uk/Es2ro2y21TREpxGD52c-yQMBDWfbZtkGBJRazHEZ7b6PEg?e=IMBW1g>`_. (Imperial Access Only)
 
 These are the CO2_tracer fields of the CFD simulation to be learned:
 ![alt text](https://github.com/PNadler-Imperial/Adversarial-Variational-Autoencoder-Training-for-CFD-Simulations/blob/main/model_main/ground_gif.gif?raw=true)
