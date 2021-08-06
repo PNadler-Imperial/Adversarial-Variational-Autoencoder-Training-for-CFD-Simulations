@@ -14,7 +14,7 @@ scikit-learn 0.23.2
 
 ## Pre Processing
 The folder Pre-Processing contains the scripts to assimilate experimental data with the CFD simulation. In a first step the CFD is saved as a sequence of images, in a second step the images are combined with the images of experimental data using a DA procedore.
-![alt text](https://github.com/PNadler-Imperial/Adversarial-Variational-Autoencoder-Training-for-CFD-Simulations/blob/main/preprocessing/da_example.png?raw=true){:height="25%" width="25%"}
+![alt text](https://github.com/PNadler-Imperial/Adversarial-Variational-Autoencoder-Training-for-CFD-Simulations/blob/main/preprocessing/da_example.png?raw=true{:height="25%" width="25%"})
 
 ## Main Model
 The model is trainable without the pre-processing and requires execution of the scripts as outlined in the main model folder. If in the previous step the assimilated state was saved, there is an option of da_state to integrate this into the network architecture altough this is still experimental
