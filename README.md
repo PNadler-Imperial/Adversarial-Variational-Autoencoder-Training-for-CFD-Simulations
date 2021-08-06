@@ -1,7 +1,8 @@
 # Adversarial-Variational-Autoencoder-Training-for-CFD-Simulations
 
 Experimental Repo for Using adversarial training to improve forecasts of data-driven surrogate models of CFD simulations with integration of DA of experimental data.
-The Adv. VAE is trained on the CO2_tracerfields of the pub simulation which serves as proxy for exposure to Covid19. The mode accuracy is compared to a simple PCA decomposition thereof and the space reconstructed by the Adv.VAE. Optionally, we construct a pre-processing step where images of the experimental data can be assimilated with the CFD simulation.  
+The Adv. VAE is trained on the CO2_tracerfields of the pub simulation which serves as proxy for exposure to Covid19. The mode accuracy is compared to a simple PCA decomposition thereof and the space reconstructed by the Adv.VAE. Optionally, we construct a pre-processing step where images of the experimental data can be assimilated with the CFD simulation.
+<img src="https://github.com/PNadler-Imperial/Adversarial-Variational-Autoencoder-Training-for-CFD-Simulations/blob/main/model_main/pub_example.png" width="250" height="225">
 
 ## Requirements
 
@@ -14,7 +15,7 @@ scikit-learn 0.23.2
 
 ## Pre Processing
 The folder Pre-Processing contains the scripts to assimilate experimental data with the CFD simulation. In a first step the CFD is saved as a sequence of images, in a second step the images are combined with the images of experimental data using a DA procedure.
-<img src="https://github.com/PNadler-Imperial/Adversarial-Variational-Autoencoder-Training-for-CFD-Simulations/blob/main/model_main/pub_example.png" width="600" height="450">
+
 <img src="https://github.com/PNadler-Imperial/Adversarial-Variational-Autoencoder-Training-for-CFD-Simulations/blob/main/preprocessing/da_example.png" width="600" height="450">
 
 The image and video images are available [here](https://drive.google.com/drive/folders/1OuOmogGW1C1vilpJxz4-XemdEohSH6Kq?usp=sharing) and [here](https://drive.google.com/drive/folders/1bgbzkVpM_RbiXscbHrNfbW2ZO2_mDrgK?usp=sharing)
